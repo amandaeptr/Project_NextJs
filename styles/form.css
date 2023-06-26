@@ -1,0 +1,361 @@
+/* css untuk tampilan index home */
+.container-home{
+  height: 100vh;
+  background-image: url('../gambar/backgroundbuku.jpg');
+  background-size: cover;
+}
+
+/* untuk navigasi bar */
+header {
+  position: absolute;
+  background: #316879;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  float: left;
+  font-weight: bold;
+}
+
+.logo:hover{
+  color: #7fe7dc;
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #316879;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+}
+
+ul li a {
+  color: rgb(252, 245, 245);
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  display: block;
+}
+
+ul li a:hover {
+    color: #130101;
+    background-color: #ced7d8;
+}
+
+/* css untuk header tiap index */
+#header {
+  background: #316879;
+  padding: 15px;
+}
+
+h1 {
+  color: white; 
+  font-size: 30px;
+}
+
+/* css buat card form input data */
+#formadd{
+  width: 400px;
+}
+.card-input {
+  width: 500px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  background-color:  #7fe7dc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px black;
+  margin: 100px;
+}
+
+.card-input h1 {
+  font-size: 30px;
+  color: black; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-input form table {
+  width: 100%;
+}
+
+.card-input form table td {
+  padding: 10px 0;
+}
+
+.card-input form table label {
+  display: block;
+  font-weight: bold;
+  color: black; 
+}
+
+.card-input form table input[type="text"],
+.card-input form table input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-submit{
+  padding:8px;
+  border: 1px solid #45a049;
+  background-color: #45a049;
+  color: white;
+  margin:8px;
+  border-radius: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.btn-submit:hover{
+  padding:8px;
+  border: 2px solid #45a049;
+  background-color: white;
+  color: #45a049;
+  margin:5px;
+  border-radius: 5px;
+  font-size: 10pt;
+  transition: all 0.2s ease-in-out;
+  cursor:pointer;
+}
+
+.btn-cancel{
+  padding:8px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  margin:10px;
+  border-radius: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.btn-cancel:hover{
+  padding:8px;
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+  margin:10px;
+  border-radius: 10px;
+  font-size: 10pt;
+  transition: all 0.2s ease-in-out;
+  cursor:pointer;
+}
+
+/* css untuk card data */
+.card-data {
+  width: 500px;
+  background-color: #7fe7dc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card-data img{
+  height:400px;
+}
+
+.tbl-data {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: black; 
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbl-data td, th {
+  text-align: left;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.row{
+  display: flex;
+  padding: 30px;
+}
+
+/* css untuk card form edit list data */
+#formedit{
+  width: 400px;
+}
+.card-edit {
+  width: 500px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  background-color:  #7fe7dc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px black;
+  margin: 100px;
+}
+
+.card-edit h1 {
+  font-size: 30px;
+  color: black; 
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-edit form table {
+  width: 100%;
+}
+
+.card-edit form table td {
+  padding: 10px 0;
+}
+
+.card-edit form table label {
+  display: block;
+  font-weight: bold;
+  color: black; 
+}
+
+.card-edit form table [type="text"],
+.card-edit form table [type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-submit{
+  padding:10px;
+  border: 1px solid #45a049;
+  background-color: #45a049;
+  color: white;
+  margin:10px;
+  border-radius: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.btn-submit:hover{
+  padding:10px;
+  border: 2px solid #45a049;
+  background-color: white;
+  color: #45a049;
+  margin:10px;
+  border-radius: 10px;
+  font-size: 10pt;
+  transition: all 0.2s ease-in-out;
+  cursor:pointer;
+}
+
+.btn-cancel{
+  padding:10px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  margin:10px;
+  border-radius: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.btn-cancel:hover{
+  padding:10px;
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+  margin:10px;
+  border-radius: 10px;
+  font-size: 10pt;
+  transition: all 0.2s ease-in-out;
+  cursor:pointer;
+}
+
+/* css untuk list data atau tabel data  */
+.buku {
+  width: 70%; 
+  margin-top: 10px;
+  font-size: 18px;
+  color: black;
+  border-collapse: collapse;
+  margin: 100px;
+}
+
+.buku thead{
+  background-color: #316879;
+  color: white;
+}
+
+.buku th,
+.buku td {
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.buku th {
+  background-color: white;
+  font-size: 18px;
+  color: black;
+}
+
+.buku td img {
+  max-width: 80px;
+}
+
+.btnac-edit {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.btnac-edit:hover{
+  padding:10px;
+  border: 2px solid orange;
+  background-color: white;
+  color: orange;
+  margin:10px;
+  cursor: pointer;
+  font-size: 10pt;
+}
+
+.btnac-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.btnac-delete:hover{
+  padding:10px;
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+  margin:10px;
+  cursor: pointer;
+  font-size: 10pt;
+}
